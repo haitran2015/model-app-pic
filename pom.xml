@@ -11,4 +11,14 @@
   <packaging>pom</packaging>
   <name>model-app-pic</name>
   <description>model-app-pic pour jenkins</description>
+  <modules>
+  	<module>model-app-pic-common</module>
+  	<module>model-app-pic-public</module>
+  	<module>model-app-pic-batch</module>
+  </modules>
+  
+  <scm>
+		<connection>scm:git:https://github.com/haitran2015/model-app-pic.git</connection>
+		<tag>HEAD</tag>
+	</scm>
 </project>
